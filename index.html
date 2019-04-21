@@ -4,53 +4,109 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <!--LINK JQUERY-->
     <script src="jquery-3.4.0.min.js"></script>
-    <script src="jquery-scrollto/lib/jquery-scrollto.js"></script>
-    <!--PERSONAL SCRIPT JavaScript-->
-    $('#goto').ScrollTo({
-    duration: 2000,
-    callback: function(){
-        alert('Scrolling has now completed.');
-    }
-});
+    <!--HTML-->
     <title>Pablo Arribas UX/UI Designer</title>
   </head>
   <body>
     <div class="content">
-      <div class="mainscreen">
         <header>
           <nav class="in-down">
             <ul>
               <li>
-                  <a href="mailto:pabloagtrece@gmail.com">Email Me!</a>
+                  <a href="mailto:pabloagtrece@gmail.com" class="top-menu">Email Me!</a>
               </li>
-              <li><a href="resume.html">Resume</a></li>
-              <li><a href="https://medium.com/@pabloarribas">Medium</a>
+              <li class="in-down2"><a href="documents/pablo-arribas-cv.pdf" class="top-menu">Resume</a></li>
+              <li class="in-down3"><a href="https://medium.com/@pabloarribas" class="top-menu">Medium</a>
               </li>
-              <li><a href="https://www.linkedin.com/in/pablo-arribas-garc%C3%ADa-3ab2b914b/">Linkedin</a>
+              <li class="in-down4"><a href="https://www.linkedin.com/in/pablo-arribas-garc%C3%ADa-3ab2b914b/" class="top-menu">Linkedin</a>
               </li>
-              <li>
-                <a href="#goto" class="sliding-link">Projects</a>
+              <li class="in-down5">
+                <a href="#anchor2" class="top-menu">Current</a>
               </li>
             </ul>
           </nav>
         </header>
-        <main>
           <section class="description">
-            <h1>Hi, I'm Pablo Arribas</h1>
-            <h2>UX/UI Designer from Madrid</h2>
-            <p>Digital Business and Strategy oriented . Actively looking for new ways of improving the way users experience their products.</p>
-            <p>Always willing to keep improving both professionally and personally.</p>
-            <p>I've decided to change my life, and that's why I studied at Ironhack in order to become the best UX Designer I can be.</p>
+            <div class="in-up">
+              <h1>Hi, I'm Pablo Arribas</h1>
+              <h2 >UX/UI Designer from Madrid</h2>
+              <p>Digital Business and Strategy oriented . Actively looking for new ways of improving the way users experience their products.</p>
+              <p>Always willing to keep improving both professionally and personally.</p>
+              <p>I've decided to change my life, and that's why I studied at Ironhack in order to become the best UX Designer I can be.</p>
+              <p id="anchor1">My website's design might not be the best you've ever seen, but it'll be way cooler as soon is I learn a little bit more of web development...</p>
+            </div>
           </section>
-          <section>
-            <div id="goto"><h3 id="projects-title">Projects</h3></div>
-            <p>At some point in my life, there will be a lot of cool stuff to show here, but for now....here's a meme</p>
+          <section class="in-up projects">
+            <a href="#anchor1"><h3>Projects</h3></a>
+            <div class="project-links">
+              <div class="project-box abc">
+                <img src="images/ABC-mockup.png">
+                <div class="abc-overlay">
+                  <div class="abc-medium">
+                    <a href="">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    <h4>ABC Groceries</h4>
+                    <p class="text-hover">UX/UI Project - Ecommerce</p>
+                  </div>
+                </div>
+              </div>
+              <div class="project-box frivals">
+                <img src="images/footrivals-mockup.png" alt="">
+                <div class="frivals-overlay">
+                  <div class="abc-medium">
+                    <a href="https://medium.com/@pabloarribas/footrivals-ux-case-study-7c8d538b57ba">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    <h4>FootRivals</h4>
+                    <p class="text-hover">UX/UI Project - Football App</p>
+                  </div>
+                </div>
+              </div>
+              <div class="project-box aboard">
+                <img src="images/aboard-mockup.png" alt="">
+                <div class="aboard-overlay">
+                  <div class="abc-medium">
+                    <a href="https://medium.com/@pabloarribas/aboard-ux-case-study-483f8732cc8e">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    <h4>Aboard</h4>
+                    <p class="text-hover">UX/UI Project - Onboarding Platform</p>
+                  </div>
+                </div>
+              </div>
           </section>
-        </main>
-      </div>
+          <section class="in-up footer-margin">
+            <div class="current">
+              <h3 id="anchor2">Current Work</h3>
+            </div>
+            <div>
+              <p>There are a few things I'm working on at the moment:
+              </p>
+              <p>- First things first, I'm looking for a full-time job as a UX/UI Designer, so if you could be interested in someone like me, you know, hit me up!</p>
+              <p>- Making this website full responsive (it's not responsive at all lol), and optimizing the code (it's kind of a mess, I know).</p>
+              <p>- Taking an online course about digital illustration with Adobe Illustrator.</p>
+              <p>- Keep working on future UX Projects, as well as keep improving my visual design.</p>
+          </section>
     </div>
+    <!--Footer-->
+    <footer>
+      <div class="col-md-12">
+        <ul class="social-network social-circle">
+          <li><a href="mailto:pabloagtrece@gmail.com" class="icoFacebook" title="Email me"><i class="far fa-envelope"></i></a></li>
+          <li><a href="https://www.behance.net/pabloagtrece" class="icoTwitter" title="Behance"><i class="fab fa-behance"></i></a></li>
+          <li><a href="https://medium.com/@pabloarribas" class="icoGoogle" title="Medium"><i class="fab fa-medium-m"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/in/pablo-arribas-garc%C3%ADa-3ab2b914b/" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+  		</div>
+      <p class="disclaimer">Copyright © Pablo Arribas García 2019</p>
+    </footer>
   </body>
 </html>
