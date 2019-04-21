@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FEFEFE;
+  background-color: white;
+}
+
+div {
+  max-width: 848px;
+}
+
+nav {
+  width: 848px;
+  max-width: 848px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+li {
+  display: inline-block;
+}
+
+a {
+  font-size: 20px;
+  color: #191919;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 2px solid #4F4F4F;
+  margin-left: 16px;
+}
+
+h1 {
+  font-size: 72px;
+  color: #191919;
+  font-weight: 500;
+  margin: 8px 0px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #665DFF;
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+
+h3 {
+  font-size: 40px;
+  color: #191919;
+  font-weight: 500;
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+p {
+  font-size: 17px;
+  color: #191919;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+img {
+  max-width: 150px;
+}
+
+.nav-projects {
+  transition-duration: 400ms;
+}
+
+.description {
+  border: 1px solid black;
+  width: 848px;
+  max-width: 848px;
+}
+
+.mainscreen {
+}
+
+.projects {
+}
+
+.project-links {
+  width: 848px;
+  max-width: 848px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 128px;
+  border-radius: 3px;
+}
+
+.medium-link {
+  border: none;
+  margin-right: 8px;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+        -o-transform: translatey(-20px);
+        transform: translatey(-20px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+@-moz-keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+        -o-transform: translatey(-20px);
+        transform: translatey(-20px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+@keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+        -o-transform: translatey(-20px);
+        transform: translatey(-20px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+.in-down {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}

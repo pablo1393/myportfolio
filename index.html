@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!--LINK JQUERY-->
+    <script src="jquery-3.4.0.min.js"></script>
+    <script src="jquery-scrollto/lib/jquery-scrollto.js"></script>
+    <!--PERSONAL SCRIPT JavaScript-->
+    $('#goto').ScrollTo({
+    duration: 2000,
+    callback: function(){
+        alert('Scrolling has now completed.');
+    }
+});
+    <title>Pablo Arribas UX/UI Designer</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="mainscreen">
+        <header>
+          <nav class="in-down">
+            <ul>
+              <li>
+                  <a href="mailto:pabloagtrece@gmail.com">Email Me!</a>
+              </li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="https://medium.com/@pabloarribas">Medium</a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/pablo-arribas-garc%C3%ADa-3ab2b914b/">Linkedin</a>
+              </li>
+              <li>
+                <a href="#goto" class="sliding-link">Projects</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <section class="description">
+            <h1>Hi, I'm Pablo Arribas</h1>
+            <h2>UX/UI Designer from Madrid</h2>
+            <p>Digital Business and Strategy oriented . Actively looking for new ways of improving the way users experience their products.</p>
+            <p>Always willing to keep improving both professionally and personally.</p>
+            <p>I've decided to change my life, and that's why I studied at Ironhack in order to become the best UX Designer I can be.</p>
+          </section>
+          <section>
+            <div id="goto"><h3 id="projects-title">Projects</h3></div>
+            <p>At some point in my life, there will be a lot of cool stuff to show here, but for now....here's a meme</p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
